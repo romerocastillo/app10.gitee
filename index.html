@@ -1,0 +1,951 @@
+<!doctype html>
+<html>
+<head>
+	<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<meta charset="utf-8">
+<title>Notificaciones del Dispositivo</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app10.min.css"/>
+
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js" type="text/javascript"></script>
+
+<script src="phonegap.js"></script><!--necesario*/-->
+
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('imagenes/archivos/general.jpg','imagenes/archivos/tratado.JPG','imagenes/archivos/img2.jpg','imagenes/archivos/codigocondicional.jpg','imagenes/archivos/pseudocodigo1.jpg','imagenes/archivos/algoritmo1.jpg','imagenes/archivos/visual.jpg','imagenes/archivos/pseudocodigocondicional.JPG','imagenes/archivos/repeticionc.jpg','imagenes/archivos/visualstudio.jpg')">
+	<div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-add-back-text="Regresar" data-add-back-theme="a">
+   <h1>Tutorial DSUPE</h1>
+  </div>
+
+
+	<div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+    <h1>CONTENIDO TEMÁTICO DE DSUPE</h1>
+    <div>
+     
+     <h2>1.Desarrollar el proceso para dar solución a un problema por computarora:</h2>
+     <p>a)Identificar el problema.</p>
+    <p> b)Analizar el problema.</p>
+     <p>c)Elaborar el algoritmo que da solución al problema.</p>
+     <p>d)Hacer el análisis de los datos.</p>
+     <p>e)Elaborar el Diagrama de Flujo.</p>
+    <p> f)Crear el Pseudocódigo de la solución.</p>
+     <p>g)Crear el código de la solución.</p>
+     <p>h)Hacer pruebas de escritorio.</p>
+
+     <h2>2. Identifica y Aplica el principio de programación estructurada.</h2>
+
+      <h2>3.Reconocimiento del entorno de desarrollo gráfico del DFD.</h2>
+
+      <h2>4.Reconocimiento del entorno de desarrollo gráfico del PSEINT.</h2>
+
+      <h2>5.Reconocimiento del entorno de desarrollo gráfico de C#.</h2>
+      <h2>6. Desarrolla procesos de estructura lineal.</h2>
+    <p> a)Identifica y aplica el concepto de vaariable.</p>
+    <p> b)Aplica las variables en las operaciones que definen sus algoritmos.</p>
+     <p> i.Reconoce y aplica las variables de acuerdo a su uso.(de trabajo, contadoras y acumuladoras).</p>
+     <p> ii.Reconoce y aplica las variables de acuerdo a su contenido.(númericas,alfanúmericas y lógicas).</p>
+     <p> iii.Reconoce y aplica las variables de acuerdo a su ámbito.(locales o globales).</p>
+     <p> c)Operadores aritméticos y su jerarquía.</p>
+
+      <h2> 7.Desarrolla procesos de estructura condicional.</h2>
+     <p> a)Elemento de una expresión condicional.</p>
+     <p> i.Operadores comparativos.</p>
+     <p> ii.Operadores lógicos.</p>
+      <p>b)Manipular la estructura de decisión if.</p>
+      <p>c)Manipular la estructura de decisión if-else.</p>
+     <p> d)Manipular la estructura de decisión else-if.</p>
+     <p> e)Manipular la estructura de decisión switch.</p>
+     <p> f)Manipular la estructura de decisión en forma de anidamiento.</p>
+
+     <h2> 8.Desarrolla procesoso de estructura repetitiva.</h2>
+     <p> a)Manipular la estructura de repetición while.</p>
+     <p> b)Manipular la estructura de repetición do-while.</p>
+     <p> c)Manipular la estructura de repetición for.</p>
+     <p> d)Manipular la estructura de repetición en forma de anidamiento.</p>
+      <h2> 9.Uso de variables tipo arreglo.</h2>
+      <h2> 10.Convierte programaas elaborados en archivos ejecutables.</h2>
+ </div>
+ </div>
+ </div>
+  <br>
+   <br>
+ <div>
+     <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+       <a href="#pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>UNIDAD 1</h2>
+        
+        </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>UNIDAD 2</h2>
+        
+       </a>
+     </li>
+      <li class="ui-first-child ui-last-child">
+       <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>UNIDAD 3</h2>
+        
+       </a>
+     </li>
+    </ul>
+   </div>
+   <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/algoritmo3.png" alt="algoritmo3" title="algoritmo3" id="wows2_0"/></li>
+		<li><img src="data2/images/algoritmo2.jpg" alt="algoritmo2" title="algoritmo2" id="wows2_1"/></li>
+		<li><img src="data2/images/codigocondicional.jpg" alt="codigocondicional" title="codigocondicional" id="wows2_2"/></li>
+		<li><img src="data2/images/condicional.png" alt="condicional" title="condicional" id="wows2_3"/></li>
+		<li><img src="data2/images/diagrama1.png" alt="diagrama1" title="diagrama1" id="wows2_4"/></li>
+		<li><img src="data2/images/lenguaje.jpg" alt="lenguaje" title="lenguaje" id="wows2_5"/></li>
+		<li><img src="data2/images/pseudocodigo.jpg" alt="pseudocodigo" title="pseudocodigo" id="wows2_6"/></li>
+		<li><img src="data2/images/pseudocodigo1.jpg" alt="pseudocodigo1" title="pseudocodigo1" id="wows2_7"/></li>
+		<li><img src="data2/images/pseudocodigocondicional.jpg" alt="pseudocodigocondicional" title="pseudocodigocondicional" id="wows2_8"/></li>
+		<li><img src="data2/images/repeticion.jpg" alt="repeticion" title="repeticion" id="wows2_9"/></li>
+		<li><img src="data2/images/repeticionc.jpg" alt="repeticionc" title="repeticionc" id="wows2_10"/></li>
+		<li><img src="data2/images/repeticionpseudo.jpg" alt="repeticionpseudo" title="repeticionpseudo" id="wows2_11"/></li>
+		<li><a href="http://wowslider.com"><img src="data2/images/rombo.jpg" alt="wowslider.com" title="rombo" id="wows2_12"/></a></li>
+		<li><img src="data2/images/visual.jpg" alt="visual" title="visual" id="wows2_13"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="algoritmo3"><span><img src="data2/tooltips/algoritmo3.png" alt="algoritmo3"/>1</span></a>
+		<a href="#" title="algoritmo2"><span><img src="data2/tooltips/algoritmo2.jpg" alt="algoritmo2"/>2</span></a>
+		<a href="#" title="codigocondicional"><span><img src="data2/tooltips/codigocondicional.jpg" alt="codigocondicional"/>3</span></a>
+		<a href="#" title="condicional"><span><img src="data2/tooltips/condicional.png" alt="condicional"/>4</span></a>
+		<a href="#" title="diagrama1"><span><img src="data2/tooltips/diagrama1.png" alt="diagrama1"/>5</span></a>
+		<a href="#" title="lenguaje"><span><img src="data2/tooltips/lenguaje.jpg" alt="lenguaje"/>6</span></a>
+		<a href="#" title="pseudocodigo"><span><img src="data2/tooltips/pseudocodigo.jpg" alt="pseudocodigo"/>7</span></a>
+		<a href="#" title="pseudocodigo1"><span><img src="data2/tooltips/pseudocodigo1.jpg" alt="pseudocodigo1"/>8</span></a>
+		<a href="#" title="pseudocodigocondicional"><span><img src="data2/tooltips/pseudocodigocondicional.jpg" alt="pseudocodigocondicional"/>9</span></a>
+		<a href="#" title="repeticion"><span><img src="data2/tooltips/repeticion.jpg" alt="repeticion"/>10</span></a>
+		<a href="#" title="repeticionc"><span><img src="data2/tooltips/repeticionc.jpg" alt="repeticionc"/>11</span></a>
+		<a href="#" title="repeticionpseudo"><span><img src="data2/tooltips/repeticionpseudo.jpg" alt="repeticionpseudo"/>12</span></a>
+		<a href="#" title="rombo"><span><img src="data2/tooltips/rombo.jpg" alt="rombo"/>13</span></a>
+		<a href="#" title="visual"><span><img src="data2/tooltips/visual.jpg" alt="visual"/>14</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wow slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+  <div>
+     <h4> Aplicación 10</h4>
+     <h4> Proyecto Final</h4>
+     <h4>Liliana Michell Romero Castillo</h4>
+  </div>
+ </div>
+ </div>
+ 
+
+<div data-role="page" id="pagina1" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Elaboración de Algoritmos secuenciales y condicionales de problemas de la vida real</h1>
+  </div>
+<div data-role="content">
+	<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+       <a href="#pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>Implementar Algoritmos con Diagramas de Flujo </h2>
+        
+        </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Implementar Algoritmos con Pseudocódigo </h2>
+        
+       </a>
+     </li>
+      <li class="ui-first-child ui-last-child">
+       <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Implementar Algoritmos con código </h2>
+        
+       </a>
+     </li>
+    </ul>
+      </div>
+       <div data-role="collapsible" data-content-theme="false">
+    <h1>¿Qué es un Algoritmo?</h1>
+    <div>
+    
+     <p>Es una lista infinita y ordenada de pasos necesarios para llegar a la solución de un problema específico.</p>
+    <p>
+    	Por algoritmo, se entiende a un conjunto finito de instrucciones que se deben seguir para resolver un problema. No obstante, desde el punto de vista de la programación de ordenadores, la definición del algoritmo como la especificación de una serie de pasos, es incompleta. Debe observarse que los ordenadores son equipos que tienen limitaciones físicas en cuanto a capacidad de almacenamiento y procesamiento. Por consiguiente debemos refinar un poco más nuestra definición de algoritmo para hacerla aplicable de manera efectiva en el ámbito de la informática.
+
+El algoritmo es un conjunto de pasos, instrucciones o acciones que se deben seguir para resolver un problema. Existen una gran cantidad de algoritmos, hay que escoger el más efectivo. Hay dos tipos de algoritmos que son los cualitativos y cuantitativos, cualitativos son todos aquellos pasos o instrucciones descritos por medio de palabras que sirven para llegar a la obtención de una respuesta o solución de un problema, y cuantitativos son todos aquellos pasos o instrucciones que involucran cálculos numéricos para llegar a un resultado satisfactorio.
+    </p>
+     <h2>Características: </h2>
+ <p>-Tiene que ser preciso. </p>
+ <p>-Tiene que estar bien definido. </p>
+ <p>-Tiene que ser finito. </p>
+ <p>-La programación es adaptar el algoritmo al ordenador. </p>
+ <p>-El algoritmo es independiente según donde lo implemente. </p>
+
+ <div data-role="main" class="ui-content" align="center">
+ <div style="width:20%;">
+    <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+  <a href="https://es.wikibooks.org/wiki/Fundamentos_de_programaci%C3%B3n/Algoritmos_y_programas" data-role="button">
+    <h2> Leer más </h2>
+    </a>
+   </li>
+</ul>
+   </div>
+     
+  </div>
+<h2>Partes del Algoritmo</h2>
+<h2>-Entradas:</h2>
+<p>Son los valores obtenidos del problema que representan al mundo real.Pueden ser cero o más entradas.</p>
+<p>- Se indican todos los
+elementos (Variables, constantes y sus
+características) que se van a utilizar
+para resolver el problema.</p>
+<h2>-Procesos:</h2>
+<p>Descripción de las operaciones que se llevarán a cabo con las entradas anteriores.</p>
+<p>- Serie de pasos para
+resolver el problema.
+</p>
+<h2>-Salidas:</h2>
+<p>La salida son los valores resultantes al transformar los valores de la entrada.Pueden ser una o más salidas.</p>
+<p>El resultado solucion del
+problema.</p>
+<div align="center">
+<a href="https://www.uaeh.edu.mx/docencia/P_Presentaciones/prepa3/algoritmos.pdf">
+    <h2> Leer más </h2>
+    </a>
+</div>
+
+ </div>
+ </div>
+ 
+
+ <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+    <h1>Pasos para la solución de un problema</h1>
+    <div>
+    
+     <h2>-Identificar el problema</h2>
+    <p>
+    	Es el enunciado del problema, debe sr claro y concreto.
+    </p>
+     <h2>-Analizar el problema </h2>
+ <p>Leer el enunciado cuantas veces sea necesario con el objetivo de saber que se quiere como solución</p>
+ <h2>-Hacer el algoritmo que da solución al problema. </h2>
+ <p>Sin tener dudas de lo que se quiere como solución al problema, procedemos a escribir el algoritmo. </p>
+ <h2>-Hacer el análisis de los datos.</h2>
+ <p>Hacer la partes ue conforman un algoritmo. </p>
+ <p>*Entrada de datos. </p>
+ <p>Procesos de datos. </p>
+ <p>Salidas de datos. </p>
+ <div data-role="main" class="ui-content" align="center">
+ <div style="width:20%;">
+    <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+  <a href="http://www.conocimientosweb.net/zip/article814.html" data-role="button">
+    <h2> Leer más </h2>
+    </a>
+   </li>
+</ul>
+   </div>
+   </div>
+  </div>
+  </div>
+
+ 
+ </div>
+  <div data-role="main" class="ui-content" align="center">
+ <div style="width:50%;">
+    <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+  <a href="http://franklintutoriales.blogspot.com/2013/10/operadores-aritmeticos-relacionales-y.html" data-role="button">
+    <h2> Operadores aritméticos y su jerarquía</h2>
+    </a>
+   </li>
+</ul>
+   </div>
+   </div>
+   <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+    <h1>¿Qué es una variable?</h1>
+    <div>
+    
+     <h2>¿Qué es una variable?</h2>
+    <p>
+    	Es una palabra o identificador creado por el programador para asignarle valores.
+    </p>
+     <h2>¿Cómo crear el nombre de una variable?</h2>
+ <p>El identificador o nombre de variable, se debe constar sólo de letras y números, comenzando siempre por una letra.</p>
+ <h2>Criterio importante par el nombre de una variable. </h2>
+ <p>Elige el nombre de tus variables de tal forma que sobre entienda el valor que va a representar de cauerdo al problema que se esta resolviendo. </p>
+ <h2>Tipos de variables</h2>
+ <p>Al crear una variable tenemos en mente que es para guardar datos, pero cuando estamos programando podemos necesitar otra serie de variables que también son importantes.
+
+Estas variables pueden ser de estos tipos.<p>
+
+<h2>Variable auxiliar</h2>
+<p>También se llaman variables temporales. Son las que necesitamos para hacer algo de manera temporal.
+
+Seguramente esa variable no la necesites una vez ha cumplido su objetivo. Veamos un ejemplo.
+
+Quieres intercambiar los valores de a a b. Para hacerlo, necesitas una variable auxiliar, que se puede llamar c. El código sería algo así:
+
+c = a;
+a = b;
+b = c;
+Una vez hecho esto, ya no es necesaria la variable c.</p>
+
+<h2>Variable acumuladora</h2>
+<p>Las variables acumuladoras sirven para almacenar un número y sus valores consecutivos. Por ejemplo, si empieza por 0, luego tendrá el valor de 1, 2, 3, 4…
+
+Es tan habitual que una variable incremente o decremente en 1, que muchos lenguajes tienen una operación que sólo hace eso. Esta operación es ++ o --.
+
+Suelen utilizarse en bucles, como for o while.</p>
+
+<h2>Variable de estado</h2>
+<p>Las variables de estado se utilizan para saber como se encuentra un objeto en cada momento.
+
+La más simple podría ser una variable booleana, dónde su valor sería true o false.
+
+Pero también podrías definir varios estados. Por ejemplo, si tienes un objeto luchador en un juego, puede estar peleando, cayendo, siendo derrotado…
+
+El mismo objeto actuaría de manera diferente dependiendo del estado en el que se encuentra.</p>
+ <div align="center">
+<a href="https://lenguajesdeprogramacion.net/diccionario/que-es-una-variable-en-programacion/">
+    <h2> Leer más </h2>
+    </a>
+</div>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+    <h4> Aplicación 10, LMRC</h4>
+ </div>
+  </div>
+  </div>
+ <div data-role="page" id="Pagina2" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>Elaboración de algoritmos condicionales y de repetición de problemas de la vida real</h1>
+     </div>
+     <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+    <h1>Algoritmos Condicionales</h1>
+    <div>
+    	<h2>¿Qué es un algoritmo Condicional?</h2>
+   <p>Hemos llegado a un punto de la resolución de un problemaa, donde existan diferentes caminos con acciones o pasos que pueden llegar a ejecutarse.</p>
+    <h2>PERO SÓLO UN CAMINO SE PUEDE EJERCUTAR EN ALGÚN MOMENTO.</h2>
+     <br>
+     <h2>Esquema</h2>
+     <p>Debe existir una pregunta que determine una condición para algún dato y evaluarlo con un valor de verdad.</p>
+     <br>
+     <p>La condición para algún dato se expresa como una proposición u oración que nos lleve a valores como:</p>
+     <br>
+      <h2>1. Si ó No </h2>
+       <h2>2. V ó F</h2>
+        <h2>3. Verdadero ó Falso</h2>
+         <h2>4. True ó False</h2>
+          <h2>5. On ú Off</h2>
+           <h2>6. 1 ó 0</h2>
+           <div align="center">
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image69','','imagenes/archivos/codigocondicional.jpg',1)"><img src="imagenes/archivos/condicional.png" width="490" height="188" id="Image69"></a> </div>
+</div>
+</div>
+</div>
+
+<div data-role="content">
+	<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>Implementar Algoritmos con Diagramas de Flujo </h2>
+        
+        </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Implementar Algoritmos con Pseudocódigo </h2>
+        
+       </a>
+     </li>
+      <li class="ui-first-child ui-last-child">
+       <a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Implementar Algoritmos con código </h2>
+        
+       </a>
+     </li>
+    </ul>
+    
+</div>
+
+
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+       <img src="res/android/mdpi.png" width="46" height="46">
+     </div>
+       <h4> Aplicación 10, LMRC</h4>
+    </div>
+    </div>
+    
+ 
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Desarrollo de soluciones de la vida real</h1>
+  </div>
+  <div data-role="content" align="center">
+   
+   <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>Implementar Algoritmos con Diagramas de Flujo </h2>
+        
+        </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina11" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Implementar Algoritmos con Pseudocódigo </h2>
+        
+       </a>
+     </li>
+      <li class="ui-first-child ui-last-child">
+       <a href="#Pagina12" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Implementar Algoritmos con código </h2>
+        
+       </a>
+     </li>
+    </ul>
+    <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+    <h1>Datos del Desarrollador</h1>
+    <div text-justify="text-justify">
+     <h2> Liliana Michell Romero Castillo </h2>
+     <h2> 4° E </h2>
+     <h2> Desarrolla Aplicaciones Móviles</h2>
+     <h2> Lic. José Antonio Gómez Hernández  </h2>
+    
+ </div>
+ </div>
+ </div>
+ </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+<h4> Aplicación 10, LMRC</h4>
+</div>
+</div>
+<div data-role="page" id="pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Elaboración de Algoritmos secuenciales y condicionales dde problemas de la vida real</h1>
+  </div>
+<div data-role="main" class="ui-content">
+   <h2>Diagramas de Flujo</h2>
+   <p> Es la representación gráfica-simbólica del algoritmo, nos indica el flujo lógico de cada paso definido.</p>
+	<p> Un diagrama de flujo es un diagrama que describe un proceso, sistema o algoritmo informático. Se usan ampliamente en numerosos campos para documentar, estudiar, planificar, mejorar y comunicar procesos que suelen ser complejos en diagramas claros y fáciles de comprender. Los diagramas de flujo emplean rectángulos, óvalos, diamantes y otras numerosas figuras para definir el tipo de paso, junto con flechas conectoras que establecen el flujo y la secuencia. Pueden variar desde diagramas simples y dibujados a mano hasta diagramas exhaustivos creados por computadora que describen múltiples pasos y rutas. Si tomamos en cuenta todas las diversas figuras de los diagramas de flujo, son uno de los diagramas más comunes del mundo, usados por personas con y sin conocimiento técnico en una variedad de campos. Los diagramas de flujo a veces se denominan con nombres más especializados, como "diagrama de flujo de procesos", "mapa de procesos", "diagrama de flujo funcional", "mapa de procesos de negocios", "notación y modelado de procesos de negocio (BPMN)" o "diagrama de flujo de procesos (PFD)". Están relacionados con otros diagramas populares, como los diagramas de flujo de datos (DFD) y los diagramas de actividad de lenguaje unificado de modelado (UML).</p>
+	<div align="center">
+<a href="https://www.lucidchart.com/pages/es/qu%C3%A9-es-un-diagrama-de-flujo">
+    <h2> Leer más </h2>
+    </a>
+</div>
+ <h2>Simboligía básica de Diagrama de flujo</h2>
+ <h2>Símbolo de Inicio / Final</h2>
+<p>El símbolo de terminación marca el punto inicial o final del sistema. Por lo general, contiene la palabra "Inicio" o "Fin".</p>
+
+ <h2>Cono horizontal</h2>
+<p>Indica enviar el contenido de una variable a salida, representa el monitor o pantalla.Podemos indicar que mande de salida un mensaje de texto poniéndole comilla sencilla en los extremos.</p>
+<h2>Símbolo de Entrada / Salida</h2>
+<p>Representa el material o la información que entra o sale del sistema, como una orden del cliente (entrada) o un producto (salida).
+	<h2>Símbolo del Conector
+</h2>
+<p>Indica que el flujo continúa donde se ha colocado un símbolo identico (que contiene la misma letra).</p>
+<h2>El conector fuera de página o el enlace fuera de página</h2>
+<p>El símbolo conecta elementos separados en múltiples páginas. Habitualmente se utiliza dentro de gráficos complejos. A veces se coloca el número de página en la figura para una referencia fácil.</p>
+<h2>El símbolo de proceso</h2>
+<p>Representa un proceso, acción o función. Es el símbolo más ampliamente usado en los diagramas de flujo.</p>
+<h2>Captura y emisión de datos</h2>
+<p>Este símbolo es utilizado para obtener información del usuario (Entrada de datos), como también para emitir datos al usuario (Mostrar).</p>
+<h2>Línea de Flujo</h2>
+<p>Mediante la línea de flujo podemos direccionar el flujo de ejecución del algoritmo, dando sentido y continuidad de un proceso a otro.</p>
+<h2>Propiedades de diagrama de flujo</h2>
+<p>1.Un diagrama de flujo siempre se realiza de arriba hacia abajo y de izquierda a derecha.</p>
+<p>2.Las flecha de flujo siempre tocan al símbolo superior y al símbolo inferior.</p>
+<p>3.Las flechas de flujo nunca se cruzan, usar minicirculo para unir un flujo.</p>
+<div align="center">
+<a href="https://www.heflo.com/es/blog/modelado-de-procesos/significado-simbolos-diagrama-flujo/">
+    <h2> Leer más </h2>
+    </a>
+</div>
+
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/simbolo1.jpg" alt="simbolo1" title="simbolo1" id="wows1_0"/></li>
+		<li><img src="data1/images/simbolo6.png" alt="simbolo6" title="simbolo6" id="wows1_1"/></li>
+		<li><img src="data1/images/simbologia1.jpg" alt="simbologia1" title="simbologia1" id="wows1_2"/></li>
+		<li><img src="data1/images/simbologia2.jpg" alt="simbologia2" title="simbologia2" id="wows1_3"/></li>
+		<li><img src="data1/images/simbologia3.jpg" alt="simbologia3" title="simbologia3" id="wows1_4"/></li>
+		<li><img src="data1/images/simbologia4.png" alt="simbologia4" title="simbologia4" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/simbologia5.png" alt="wowslider" title="simbologia5" id="wows1_6"/></a></li>
+		<li><img src="data1/images/variable1.png" alt="variable1" title="variable1" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="simbolo1"><span><img src="data1/tooltips/simbolo1.jpg" alt="simbolo1"/>1</span></a>
+		<a href="#" title="simbolo6"><span><img src="data1/tooltips/simbolo6.png" alt="simbolo6"/>2</span></a>
+		<a href="#" title="simbologia1"><span><img src="data1/tooltips/simbologia1.jpg" alt="simbologia1"/>3</span></a>
+		<a href="#" title="simbologia2"><span><img src="data1/tooltips/simbologia2.jpg" alt="simbologia2"/>4</span></a>
+		<a href="#" title="simbologia3"><span><img src="data1/tooltips/simbologia3.jpg" alt="simbologia3"/>5</span></a>
+		<a href="#" title="simbologia4"><span><img src="data1/tooltips/simbologia4.png" alt="simbologia4"/>6</span></a>
+		<a href="#" title="simbologia5"><span><img src="data1/tooltips/simbologia5.png" alt="simbologia5"/>7</span></a>
+		<a href="#" title="variable1"><span><img src="data1/tooltips/variable1.png" alt="variable1"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wow slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+      </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+    <h4> Aplicación 10, LMRC</h4>
+   </div>
+  </div>
+ <div data-role="page" id="Pagina5" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>Pseudocódigo</h1>
+     </div>
+<div data-role="content">
+<h2>¿Qué es un Pseudocódigo? </h2>
+<p>Es la representación narrativa de cada paso del algoritmo; esta narrativa obedece a la lengua nativa del programador.</p>
+<p>La palabra pseudocódigo formada por el prefijo “pseudo“, que según el diccionario de la RAE (Real Academia Española) significa “falso“, de ahí parte para que también sea conocido como “falso lenguaje”.
+
+Dentro de la programación se basa en un lenguaje de programación real, donde se permite expresar las instrucciones en un lenguaje común (ejemplo: español, inglés u otro idioma) para facilitar la escritura y lectura, debido a que está en lenguaje común si requiere una modificación es fácil hacerla. La escritura sólo puede ser comprendida por el ser humano y no por la máquina, por ende, tampoco puede ejecutarla. La finalidad de un pseudocódigo es representar la solución a un algoritmo (problema) de la forma más detallada posible, utilizando acciones sucesivas. Según Analía Lanzillotta: “Considerado como un lenguaje falso el pseudocódigo, que es un lenguaje intermedio entre nuestro lenguaje y el de programación, debido a que quien lo utiliza se guía por una serie de normas, pero sin llegar a usar una estructura tan rígida como la del lenguaje de programación”.Liga
+
+En otras palabras, el pseudocódigo es un lenguaje simplificado entre el programador y la máquina, hecho por el programador en su propio idioma, para describir un algoritmo y  poder comprender mejor la estructura de dicho programa, donde el lenguaje simplificado no puede ser compilado, ejecutado ni corrido por la máquina. Siendo una herramienta que se encuentra previa al lenguaje formal de programación.</p>
+
+<p>El pseudocódigo utiliza palabras que indican el proceso a realizar. </p>
+ <div align="center">
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image67','','imagenes/archivos/pseudocodigo1.jpg',1)"><img src="imagenes/archivos/pseudocodigo.gif" width="256" height="320" id="Image67"></a> </div>
+
+<h2>Estructura a seguir en su realización:</h2>
+<p>Cabecera.</p>
+<p>Programa.</p>
+<p>Módulo.</p>
+<p>Constantes.</p>
+<p>Variables.</p>
+<p>Cuerpo.</p>
+<p>Inicio.</p>
+<p>Instrucciones.</p>
+<p>Fin.</p>
+
+ <div align="center">
+       <img src="imagenes/archivos/pseudocodigo1.jpg" width="50%" height="50%">
+     </div>
+  </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+       <img src="res/android/mdpi.png" width="46" height="46">
+     </div>
+       <h4> Aplicación 10, LMRC</h4>
+    </div>
+    </div>
+    <div data-role="page" id="Pagina6" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>Pseudocódigo</h1>
+     </div>
+ <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+    <h1> Lenguaje de Programación</h1>
+    <div>
+    <h2>¿Qué es un Lenguaje de Programación?</h2>
+    <p>
+    	Es un conjunto de palabras con cierta base sintáctica y semántica, para construir instrucciones que forman un programa de computadora.
+    	Un lenguaje de programación es un lenguaje diseñado para describir el conjunto de acciones consecutivas que un equipo debe ejecutar. Por lo tanto, un lenguaje de programación es un modo práctico para que los seres humanos puedan dar instrucciones a un equipo. 
+        Por otro lado, el término "lenguaje natural" define un medio de comunicación compartido por un grupo de personas (por ejemplo: inglés o francés).
+        Los lenguajes que los equipos usan para comunicarse entre ellos no tienen nada que ver con los lenguajes de programación; se los conoce como protocolos de comunicación. Se trata de dos conceptos totalmente diferentes. Un lenguaje de programación es muy estricto: 
+</p>
+<h2> A CADA instrucción le corresponde UNA acción de procesador.</h2>
+<div data-role="main" class="ui-content" align="center">
+ <div style="width:20%;">
+    <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+  <a href="https://es.ccm.net/contents/304-lenguajes-de-programacion" data-role="button">
+    <h2> Leer más </h2>
+    </a>
+   </li>
+</ul>
+   </div>
+   </div>
+     <div align="center">
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image37','','imagenes/archivos/algoritmo1.jpg',1)"><img src="imagenes/archivos/lenguaje.jpg" width="500" height="auto" id="Image37"></a>
+     </div>
+  </div>
+     
+</div>
+<div text-justify="text-justify">
+ <h2> C# </h2>
+ <p>Cuando nombramos las variables, hay que tener en cuenta que para C# las mayúsculas y minúsculas son diferentes.</p>
+ <h2> Aplicandolo a variables </h2>
+  <p>La variable costo no es la misma que otra variable COSTO u otra variable Costo u otra variable costO u otra variable coSto.</p>
+   <h2> Para usar una variable tenemos que declararla y es muy sencillo</h2>
+   <p>double pago;</p>
+   <p>int edad;</p>
+   <p>string nombre;</p>
+      <h2> Para declarar varias variables en una sóla línea si van a ser del mismo tipo.</h2>
+   <p>double pago,precio;</p>
+   <p>int edad,numes;</p>
+   <p>string nombre,nomes;</p>
+
+      <h2> 	Para declarar varias variables e iniciarlas, se les asigna su valor al momentos de declararlas.</h2>
+   <p>double pago= 2591.7,precio;</p>
+   <p>int edad,numes=9;</p>
+   <p>string nombre="Juan",nomes="Enero";</p>
+ <h2> 	En C# cada sentencia se finaliza con un PUNTO Y COMA.</h2>
+ <h2>Mostrar valores de variables en la consola de C#</h2>
+   <p>Se usa en método writeLine() o el método Write() de la clase Console;usando una cadena de formato y una lista de variables.</p>
+<h2>Sintaxis</h2>
+   <p>Consoles.Write("texto{0}texto1{1}..",var0,var1...);</p>
+   <h2>Pedir datos al usuario en la consola C#</h2>
+   <p>Se usa el método ReadLine()de la clase Console;y nos regresa una cadena o texto que contiene lo que escribió el usuario con el teclado.</p>
+   <h2>Sintaxis</h2>
+   <p>Consoles.ReadLine();</p>
+   <h2>Conversión de datos en C#</h2>
+   <p>Debemos convertir ese dato cadena o texto a dato númerico útil con la clase Convert.</p>
+   <p>Este necesita parámetro, que es la cadena que deseamos convertir y es necesario tener una variable que lo reciba y declarada del tipo a convertir.</p>
+    <p>//convierte a numero con decimales </p>
+    <p>valor1=Convert.ToDouble(valor texto); </p>
+    <p>//convierte a numero entero</p>
+    <p>valor2=int.Parse(valor texto); </p>
+<div align="center">
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image34','','imagenes/archivos/visual.jpg',1)"><img src="imagenes/archivos/visualstudio.jpg" width="735" height="260" id="Image34"></a> </div>
+</div>
+  </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+       <img src="res/android/mdpi.png" width="46" height="46">
+     </div>
+       <h4> Aplicación 10, LMRC</h4>
+    </div>
+    </div>
+<div data-role="page" id="Pagina7" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>Algoritmo Condicional</h1>
+     </div>
+    <h2>Simbología condicional de Diagrama de Flujo</h2>
+    <div align="center">
+       <img src="imagenes/archivos/rombo.jpg" width="50%" height="50%">
+     </div>
+     <div align="center">
+   <p>El rombo sirve para evaluar su condición, al evaluarla se tiene un valor de verdad de dos valores posibles:</p>
+<h2>El valor de la condición puede ser verdadero</h2>
+<h2>El valor de la condición puede ser falso</h2>
+<p>La ejecución del flujo sigue en el lado que distinga el verdadero si la condición es verdadera.La ejececión del flujo sigue en el aldo que distinga el falso si la condici+on es falso.</p>
+<h2>Operadores condicionales o comparativos</h2>
+<p>La comparación, 8>4 (ocho mayor que cuatro) es verdadera, se representa por el valor 1, en cambio, 8<4> (ocho menor que cuatro) es falsa, se representa por el valor 0. En la primera columna de la tabla, se dan los símbolos de los operadores relacionales, el la segunda, el nombre de dichos operadores, y a continuación su significado mediante un ejemplo
+.</p>
+ <div align="center">
+       <img src="imagenes/archivos/operadores.jpg" width="50%" height="50%">
+     </div>
+     <h2>Expresión condicional Simple </h2>
+<p>Una expresión condicional simple se construye con cualquier, símbolo de condicional binario, por tanto el condicional debe llevar un operador a la izquierda y un operador a la derecha.</p>
+    
+
+ </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+       <img src="res/android/mdpi.png" width="46" height="46">
+     </div>
+       <h4> Aplicación 10, LMRC</h4>
+    </div>
+    </div>
+    <div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Pseudocódigo Condicional vs Diagrama de flujo.</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+   <p>Si condición Entonces</p>
+   <p>paso x</p>
+   <p>paso x+1</p>
+   <p>:</p>
+   <p>Sino</p>
+   <p>paso n</p>
+   <p>paso n+1</p>
+   <p>:</p>
+   <p>Fin si</p>
+<br>
+
+<p>La palabra si-entonces es el flujo verdadero "si" del rombo, la palabra Sino es el flujo  falso "No" del rombo y se debe terminar con un Finsi.</p>
+<p>Si condición Entonces</p>
+   <p>paso x</p>
+   <p>paso x+1</p>
+   <p>:</p>
+   <p>Finsi</p>
+<p>La palabra Si-Entonces equivale al flujo verdadero "Si" del rombo. Se debe terminar con Finsi.</p>
+<p>En este caso el flujo falso "No" del rombo no tiene pasos a ejecutar.</p>
+   <h2>Aclaración importante.</h2>
+<p>Un rombo </p>puede contener en susu flujos SI y No más rombos y estos a su vex también.</p>
+<p>Por lo mismo un SI-Entonces sólo o con el SIno pueden contener más Si-Entonces con su Sino o sólo el Si-Entonces y estos a su vez también.</p>
+<div align="center">
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image66','','imagenes/archivos/pseudocodigocondicional.JPG',1)"><img src="imagenes/archivos/pseudocodigo1.jpg" width="500" height="auto" id="Image66"></a> </div>
+  </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+<h4> Aplicación 10, LMRC</h4>
+</div>
+</div>
+ <div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Código Condicional</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+   <p>if (condición)</p>
+   <p>{</p>
+   <p>paso x</p>
+   <p>paso x+1</p>
+   <p>:</p>
+   <p>}</p>
+   <p>else</p>
+   <p>{</p>
+   <p>paso n</p>
+   <p>paso n+1</p>
+   <p>:</p>
+   <p>}</p>
+<br>
+   <h2>If</h2>
+ <p>{</p>
+   <p>paso x</p>
+   <p>paso x+1</p>
+   <p>:</p>
+   <p>}</p>
+   <p>Es la instrucción condicional mas usada en los diversos lenguajes de programación, su formato completo y de trabajo en C Sharp es:
+
+cargar o asignar la variable de condición;
+if (condición)
+{ grupo cierto de instrucciones;}
+else
+{ grupo falso de instrucciones; };
+
+Tenemos 2 casos de estructuras condicionales  y son:
+
+estructuras condicionales simples 
+estructuras condicionales compuesta </p>
+<div align="center">
+<a href="http://csharp-facilito.blogspot.com/2013/07/estructuras-condicionales-en-c-sharp.html">
+    <h2> Leer más </h2>
+    </a>
+</div>
+<div align="center">
+       <img src="imagenes/archivos/codigocondicional.jpg" width="50%" height="50%">
+     </div>
+  </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+<h4> Aplicación 10, LMRC</h4>
+</div>
+</div>
+<div data-role="page" id="Pagina10" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Algoritmos repetitivos</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+   <p>Es un espacio en la memoria de la computadora que permite almacenar temporalmente un dato durante la ejecución de un proceso, su contenido puede cambiar durante la ejecución del programa. Esa información puede ser un caracter, una cadena de caracteres, un número, un arreglo y, en general, cualquier otro tipo de datos.</p>
+<p>Para poder reconocer una variable en la memoria de la computadora, es necesario darle un nombre con el cual podamos identificarla dentro de un algoritmo.</p> 
+
+<p>Por ejemplo:</p>
+<p>int a, b</p>
+<p>a := 1</p>
+<p>b := a + 2</p>
+<p><p>a := 5</p>
+
+<p>Aquí tenemos dos variables, "a" y "b" que almacenan valores numéricos enteros (int). La variable "a" almacena primero el número 1, luego "b" almacena el numero que tiene "a" más 2, por lo tanto "b" almacena un 3. Finalmente el valor de "a" es reemplazado por un 3, por lo tanto las variables contendrán estos datos al final:</p>
+<p>a = 5</p>
+<p>b = 3 </p>
+<h2>TIPOS DE VARIABLES </h2>
+
+
+<h2>Por su contenido</h2>
+
+<p>Variables Numéricas: Son aquellas en las cuales se almacenan valores numéricos, positivos o negativos, es decir almacenan números del 0 al 9, signos (+ y -) y el punto decimal. </p>
+<p>Ejemplo:</p>
+<p>iva = 0.12 pi = 3.1416 costo = 2500</p>
+
+<p>Variables Lógicas: Son aquellas que solo pueden tener dos valores (cierto o falso) estos representan el resultado de una comparación entre otros datos.</p>
+<p>Variables Alfanuméricas: Está formada por caracteres alfanuméricos (letras, números y caracteres especiales). </p>
+<p>Ejemplo:</p>
+<p>letra = “a” apellido = “Camaray” direccion = “Av. Libertad #190”</p>
+
+ 
+
+<h2>Por su uso</h2>
+
+<p>Variables de Trabajo: Variables que reciben el resultado de una operación matemática completa y que se usan normalmente dentro de un programa.</p>
+<p>Ejemplo:</p>
+<p>Suma = a + b /c </p>
+<p>Contadores: Se utilizan para llevar el control del número de ocasiones en que se realiza una operación o se cumple una condición. Con los incrementos generalmente de uno en uno.</p>
+<p>Acumuladores: Forma que toma una variable y que sirve para llevar la suma acumulativa de una serie de valores que se van leyendo o calculando progresivamente.</p>
+<h2>Estructuras Repetitivas (Bucles)</h2>
+
+ 
+
+<p>Un bucle o lazo (Loop)  es un segmento de un algoritmo o programa, cuya instrucciones se repiten un número determinado de veces mientras se cumple una determinada condición (existe o es verdadera la condición). SE debe establecer un mecanismo para determinar las tareas repetitivas. Este mecanismo es una condición que puede ser verdadera o falsa y que se comprueba una vez a cada paso o iteración del bucle (total de instrucciones que se repiten en el bucle).</p>
+
+<p>Un bucle consta de tres partes:</p>
+
+ <p>decisión</p>
+
+ <p>cuerpo del bucle</p>
+
+<h2>Por su uso</h2>
+
+
+<p>El bucle de la siguiente figura  es infinito, ya que las instrucciones (1), (2) y (3) se ejecutan indefinidamente, pues no existe salida del bucle, al no cumplirse una determinada condición.</p>
+<div align="center">
+       <img src="imagenes/archivos/repeticion.jpg" width="50%" height="50%">
+     </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+<h4> Aplicación 10, LMRC</h4>
+</div>
+</div>
+<div data-role="page" id="Pagina11" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Palabras de repetición en Pseudocódigo</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+  	<p>En los algoritmos y programas es necesario la mayoría de las veces repetir una acción o acciones sobre un conjunto de datos, o repetir una acción dependiendo del resultado de otra, o repetir una acción infinitamente.</p
+   ><p>Mientras Condición Hacer</p>
+    <p>Secuencia_de_acciones a repetir</p>
+     <p>FinMientras</p>
+<p>Siempre que la condición es verdadera, se repite la secuencia de acciones.</p>
+cLa instrucción Repetir-Hasta Que ejecuta una secuencia de instrucciones hasta que la condición sea verdadera.</p>
+
+      <p>Repetir </p>
+           <p> <instrucciones> </p>
+     <p> Hasta Que <condición> </p>
+
+<p>Al ejecutarse esta instrucción, la secuencia de instrucciones que forma el cuerpo del ciclo se ejecuta una vez y luego se evalúa la condición. Si la condición es falsa, el cuerpo del ciclo se ejecuta nuevamente y se vuelve a evaluar la condición. Esto se repite hasta que la condición sea verdadera. 
+Note que, dado que la condición se evalúa al final, las instrucciones del cuerpo del ciclo serán ejecutadas al menos una vez. 
+Además, a fin de evitar ciclos infinitos, el cuerpo del ciclo debe contener alguna instrucción que modifique la o las variables involucradas en la condición de modo que en algún momento la condición sea verdadera y se finalice la ejecución del ciclo.</p>
+<div data-role="main" class="ui-content" align="center">
+ <div style="width:20%;">
+    <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+  <a href="https://medium.com/10-goto-10/algoritmos-pseudoc%C3%B3digo-estructuras-de-decisi%C3%B3n-y-repetici%C3%B3n-917169a36ce4l" data-role="button">
+    <h2> Leer más </h2>
+    </a>
+   </li>
+</ul>
+   </div>
+   </div>
+<div align="center">
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image32','','imagenes/archivos/repeticionc.jpg',1)"><img src="imagenes/archivos/codigocondicional.jpg" width="509" height="483" id="Image32"></a> </div>
+  </div>
+
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+<h4> Aplicación 10, LMRC</h4>
+</div>
+</div>
+<div data-role="page" id="Pagina12" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Palabras reservadas de repeticón en C#</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+  	
+<h2>C#</h2>
+
+<p>While (condición)</p>
+<p>{</p>
+<p>secuencia_de_acciones a repetir</p>
+<p>}</p>
+<br>
+<p>Siempre que la condición es verdadera, se repite la secuencia de acciones.</p>
+<br>
+<p>do</p>
+<p>{</p>
+<p>secuencia_de_acciones a repetir</p>
+<p>} while(condición);</p>
+<br>
+<p>Siempre que la condición es verdadera, se repite la secuencia de acciones.</p>
+<br>
+<p>for(val_inicial;cindición;tamañopaso)</p>
+<p>{</p>
+<p>secuencia_de_acciones a repetir</p>
+<p>}</p>
+<br>
+<p>Todas las estructuras de repetición,  tienen una condición, esta evalúa que se ejecutará el código del interior de la estructura hasta que esta se cumpla. Al igual que ocurría con los IF, estás condiciones pueden ser muy variadas y normalmente se encuentran relacionadas con el código dentro de la estructura de repetición.
+
+Tenemos que tener cuidado al usar los bucles, aunque no vaya a ocurrir algo demasiado desastroso, como que el equipo salga ardiendo o tengamos que formatearlo de nuevo. Si es cierto, que fallar en una estructura de control puede producir que nos salgamos de un array o creemos un bucle infinito.
+
+Un bucle infinito se produce cuando la condición que le hemos marcado a nuestra estructura de repetición nunca se cumple y por lo tanto, se repite la ejecución una y otra vez sin poder salir de ella. Si este bucle se encuentra en el proceso principal de la aplicación está se quedará colgada en esa parte de la ejecución.</p>
+  
+  <div align="center">
+<a href="https://devthisblog.wordpress.com/2010/08/26/curso-c-estructuras-de-repeticion/">
+    <h2> Leer más </h2>
+    </a>
+</div>
+<div align="center">
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image28','','imagenes/archivos/visualstudio.jpg',1)"><img src="imagenes/archivos/repeticionc.jpg" width="520" height="auto" id="Image28"></a> </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+<h4> Aplicación 10, LMRC</h4>
+</div>
+</div>
+</body>
+</html>
